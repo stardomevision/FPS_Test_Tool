@@ -127,11 +127,3 @@ FPS_Test_Tool/
 
 本工具仅用于**合法授权的性能测试与优化验收**。
 不得用于官方匹配 / 违反用户协议的任何场景；账号、设备、数据风险由使用者自负。
-
----
-
-## 🏷 GitHub Topics（建议添加，提高曝光）
-
-> **Repository → About → ⚙ Manage topics**：把下面整行一次性粘贴进去
->
-> `fps, fps-benchmark, game-performance, android, ios, pyqt5, pyqtgraph, benchmark, battery-monitor, cpu-monitor, gpu-monitor, power-monitor, temperature-monitor, memory-monitor, frame-rate, game-testing, mobile-testing, performance-analysis, performance-visualization, stability-testing, gaming-benchmark`
