@@ -1,0 +1,67 @@
+# ---------------- Python ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.eggs/
+*.whl
+*.manifest
+*.spec.bak
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------------- Virtual env ----------------
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ---------------- IDE ----------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---------------- Project-local: DB & logs ----------------
+fps_tester.db
+fps_tester.db-*
+logs/
+*.log
+*.log.*
+
+# ---------------- PyInstaller / build cache ----------------
+.pyinstaller_cache/
+.spec.bak
+*.pyc.bak
+
+# ---------------- Binary tools (keep sources only) ----------------
+platform-tools/
+adb*
+fastboot*
+*.dylib
+
+# ---------------- Release / delivery artifacts ----------------
+*.dmg
+*.pkg
+*.app/
+*.exe
+*.zip
+*.tar.gz
+*.7z
+
+# ---------------- Test outputs ----------------
+reports/
+reports_html/
+*.png.bak
+*.jpg.bak

@@ -1,0 +1,18 @@
+# ========== GitHub 仓库元数据（Create Repository / Repository Settings 时照抄即可） ==========
+#
+# 【Repository name】（仓库名——必须使用此名称）
+#   FPS_Test_Tool
+#
+# 【Description】（首页卡片和搜索结果展示；英文在前便于 GitHub 搜索排序）
+#   Cross-platform Android & iOS game performance testing tool: FPS / 1% low / CPU / GPU / Memory / Temperature / Power monitor + one-click CSV / HTML / high-res JPG reports · 跨平台安卓 iOS 游戏帧率性能测试工具
+#
+# 【Website】（可留空）
+#   (optional)
+#
+# 【Settings → General → Features】建议：
+#   ✅ Issues 建议开
+#   ✅ Discussions 建议开（GitHub 搜索权重更高）
+#   Social preview: 上传 resources/logo.png，外部分享卡片显示 LOGO
+#
+# 【Topics】（About → Manage topics 齿轮：整行复制粘贴，一次全加）
+#   fps, fps-benchmark, game-performance, android, ios, pyqt5, pyqtgraph, benchmark, battery-monitor, cpu-monitor, gpu-monitor, power-monitor, temperature-monitor, memory-monitor, frame-rate, game-testing, mobile-testing, performance-analysis, performance-visualization, stability-testing, gaming-benchmark
