@@ -46,10 +46,13 @@ logs/
 *.pyc.bak
 
 # ---------------- Binary tools (keep sources only) ----------------
+# NOTE: DO NOT use "adb*" glob here — it would also ignore adb_client.py source file.
+# Only exclude the prebuilt Android SDK binaries (platform-tools) and *.dylib; the
+# Python source modules (adb_client.py, ios_client.py, etc.) MUST be committed.
 platform-tools/
-adb*
-fastboot*
-*.dylib
+platform-tools/adb*
+platform-tools/fastboot*
+platform-tools/*.dylib
 
 # ---------------- Release / delivery artifacts ----------------
 *.dmg

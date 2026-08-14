@@ -245,10 +245,8 @@ pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 exe = EXE(
     pyz,
     a.scripts,
-    a.binaries,
-    a.zipfiles,
-    a.datas,
     [],
+    exclude_binaries=True,
     name='星穹视界帧率测试',
     debug=False,
     bootloader_ignore_signals=False,
@@ -265,16 +263,27 @@ exe = EXE(
     icon=_icon_path,
 )
 
-app = BUNDLE(
+coll = COLLECT(
     exe,
+    a.binaries,
+    a.zipfiles,
+    a.datas,
+    strip=False,
+    upx=True,
+    upx_exclude=[],
+    name='星穹视界帧率测试',
+)
+
+app = BUNDLE(
+    coll,
     name='星穹视界帧率测试.app',
     icon=_icon_path,
     bundle_identifier='com.stellarvision.fpstester',
     info_plist={
         'NSHighResolutionCapable': 'True',
         'LSUIElement': False,
-        'CFBundleShortVersionString': '2.1.0',
-        'CFBundleVersion': '2.1.0',
+        'CFBundleShortVersionString': '2.2.1',
+        'CFBundleVersion': '2.2.1',
         'CFBundleDisplayName': '星穹视界帧率测试',
         'CFBundleName': '星穹视界帧率测试',
         'NSHumanReadableCopyright': 'Copyright © 2026',
