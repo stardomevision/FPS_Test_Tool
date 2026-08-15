@@ -104,7 +104,7 @@ FPS_Test_Tool/
 
 | Item | 内容 |
 |------|------|
-| **By Email · 邮件（推荐）** | 📧 **stellar.fps.tool@outlook.com**<br>*(请附上：设备型号 / iOS 或 Android 版本号 / 现象截图或录屏 / 复现步骤，便于快速定位)* |
+| **By Email · 邮件（推荐）** | 📧 **stardomevision@outlook.com**<br>*(请附上：设备型号 / iOS 或 Android 版本号 / 现象截图或录屏 / 复现步骤，便于快速定位)* |
 | **GitHub Issues** | [**github.com/stardomevision/FPS_Test_Tool/issues**](https://github.com/stardomevision/FPS_Test_Tool/issues) |
 
 ### 🗓 Release Policy · 版本计划
