@@ -282,8 +282,8 @@ app = BUNDLE(
     info_plist={
         'NSHighResolutionCapable': 'True',
         'LSUIElement': False,
-        'CFBundleShortVersionString': '2.2.1',
-        'CFBundleVersion': '2.2.1',
+        'CFBundleShortVersionString': '2.2.2',
+        'CFBundleVersion': '2.2.2',
         'CFBundleDisplayName': '星穹视界帧率测试',
         'CFBundleName': '星穹视界帧率测试',
         'NSHumanReadableCopyright': 'Copyright © 2026',
